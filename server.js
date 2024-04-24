@@ -14,7 +14,7 @@ const app = express();
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://indiantherapist.netlify.app/",
+    origin: "https://indiantherapist.netlify.app",
     credentials: true,
   })
 );
